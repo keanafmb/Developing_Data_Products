@@ -1,0 +1,32 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+output: 'ioslides_presentation'
+author: "Keana Bautista"
+date: "2023-08-07"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project Overview
+This project aims to create a shiny application which takes some input and displays a reactive output as a result of server calculations.
+
+## About the Application
+The application utilized the *diamonds* data set to generate a predictive price of diamonds based on carat using a linear regression model. 
+
+It includes a slider on the side panel to input the carat value. Meanwhile, the main panel displays a scatter plot and dynamically updates the predicted price based on the carat value selected using the slider.
+
+## How does it work?
+Using a slider, the user can vary the carat and the application will display the predicted price in US Dollars. It also shows a scatterplot of carat vs price for the users reference.
+
+## Links for Application and Github Repository
+Click the link below for the shiny application:
+
+https://qyu1db-keana0francheska-bautista.shinyapps.io/FinalProjectDDP/
+
+Click the link below for the Github repositry:
+
+https://github.com/keanafmb/Developing_Data_Products
+
+
